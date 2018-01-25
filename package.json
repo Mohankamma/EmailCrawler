@@ -1,0 +1,26 @@
+{
+  "name": "Email Crawler",
+  "version": "0.0.1",
+  "description": "Extracting content from Email-Inbox",
+  "main": "crawler.js",
+  "devDependencies": {
+    "bluebird": "^3.5.1",
+    "fs": "0.0.2",
+    "imap": "^0.8.19",
+    "inbox": "^*",
+    "mailparser": "^2.1.0",
+    "moment": "^2.20.1",
+    "winston": "^*"
+  },
+  "author": "Mohan Kamma",
+  "license": "MIT",
+  "repository": {
+    "type": "git"
+  },
+  "dependencies": {
+    "config": "^1.29.2",
+    "lodash": "^4.17.4",
+    "zeromq": "^4.6.0",
+    "zmq": "^2.15.3"
+  }
+}
